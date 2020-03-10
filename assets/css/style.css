@@ -407,3 +407,6 @@ div#map {
         max-width: 50%;
     }
 }
+
+/*If you're having trouble rendering your map, add the following style to your style.css file:*/
+div#map {min-height: 360px;}
