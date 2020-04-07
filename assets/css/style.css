@@ -42,15 +42,31 @@ html,body,header,#intro{
                      align-items:center;
                      justify-content:center;
                      position:relative; 
-flex-direction: column;
+                    flex-direction: column;
 
-    background-position:  center; 
-  color: white;
+                     background-position:  center; 
+                     color: white;
   
 }
 
-.benefits{
+div#map {
+    height: 500px;
+ 
 }
+
+div#maptwo {
+    height: 500px;
+ 
+}
+
+
+
+
+
+
+
+
+
 
 /*color}*/
 .bg-color-name-title{
