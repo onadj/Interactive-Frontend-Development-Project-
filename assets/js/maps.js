@@ -25,6 +25,7 @@ function initMap() {
     }];
     
   var markers = locations.map(function (location, i) {
+      console.log("Making scotland markers")
         return new google.maps.Marker({
             position: location,
             label: labels[i % labels.length]
@@ -36,7 +37,7 @@ function initMap() {
 
 
 /*Usa*/
-
+  var labelsOne = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
     var map1 = new google.maps.Map(document.getElementById("map1"), {
         zoom: 5,
         mapTypeId: google.maps.MapTypeId.HYBRID,
@@ -59,9 +60,10 @@ function initMap() {
             lng:  -122.434178
     }];
     
- var markersOne = locationsOne.map(function (location, i) {
+ var markersOne = locationsOne.map(function (locationOne, i) {
+     console.log("Making usa markers")
         return new google.maps.Marker({
-            position: location,
+            position: locationOne,
             labelOne: labelsOne[i % labelsOne.length]
         });
     });
