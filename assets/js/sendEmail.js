@@ -2,7 +2,7 @@ function sendMail(contactForm) {
     emailjs.send("gmail", "template_GPCu9IP9", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
-        "project_request": contactForm.projectsummary.value
+        "recommend_destination": contactForm.destination.value
     })
     .then(
         function(response) {
