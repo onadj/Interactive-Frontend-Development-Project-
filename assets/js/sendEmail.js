@@ -6,11 +6,11 @@ function sendMail(contactForm) {
     })
     .then(
         function(response) {
-            console.log("Uspijesno", response);
+            console.log("Sent!", response);
         },
         function(error) {
-            console.log("Dogodila se greska!", error);
+            console.log("Not sent!", error);
         }
     );
-    return false;  // To block from loading a new page
+    return false;  
 }
