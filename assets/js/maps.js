@@ -1,20 +1,26 @@
 
-/*Scotland*/
-
 function initMap() {
-        var directionsService = new google.maps.DirectionsService();
-        var directionsRenderer = new google.maps.DirectionsRenderer();
+
+      /*Scotland*/
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 8,
-           mapTypeId: google.maps.MapTypeId.HYBRID,
-            center: {
-            lat: 58.162767,
-            lng: -5.216005
-        }
+          zoom: 7,
+          mapTypeId: google.maps.MapTypeId.HYBRID,
+          center: {
+            lat: 57.478975, 
+            lng: -4.227523
+        }           
         });
 
-/*Usa*/
-         var map1 = new google.maps.Map(document.getElementById("map1"), {
+      
+
+
+       
+
+/*EndScotland*/
+
+       /*USA*/
+
+        var map1 = new google.maps.Map(document.getElementById("map1"), {
         zoom: 5,
         mapTypeId: google.maps.MapTypeId.HYBRID,
         center: {
@@ -23,6 +29,7 @@ function initMap() {
         }
     });
   
+
  
 
 /*EndUsa*/
@@ -116,31 +123,8 @@ function initMap() {
         }
     });
 /*EndCanada*/
+       
 
 
-         directionsRenderer.setMap(map);
-
-        var onChangeHandler = function() {
-          calculateAndDisplayRoute(directionsService, directionsRenderer);
-        };
-        document.getElementById('start').addEventListener('change', onChangeHandler);
-        document.getElementById('end').addEventListener('change', onChangeHandler);
-      }
-
-      function calculateAndDisplayRoute(directionsService, directionsRenderer) {
-        directionsService.route(
-            {
-              origin: {query: document.getElementById('start').value},
-              destination: {query: document.getElementById('end').value},
-              travelMode: 'DRIVING'
-            },
-            function(response, status) {
-              if (status === 'OK') {
-                directionsRenderer.setDirections(response);
-              } else {
-                window.alert('Directions request failed due to ' + status);
-              }
-            });
-      }
-
+}
 
