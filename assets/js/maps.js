@@ -1,32 +1,20 @@
 
 /*Scotland*/
+
 function initMap() {
-    var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 5,
-        mapTypeId: google.maps.MapTypeId.HYBRID,
-        center: {
+        var directionsService = new google.maps.DirectionsService();
+        var directionsRenderer = new google.maps.DirectionsRenderer();
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+           mapTypeId: google.maps.MapTypeId.HYBRID,
+            center: {
             lat: 58.162767,
             lng: -5.216005
         }
-    });
-
-    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-    var locations = [
-        { lat: 58.172211, lng: -5.283393},
-        { lat: 57.365945, lng: -4.230980 },
-        { lat: 57.419092, lng: -5.708599 }
-    ];
-
-
-    
-
-/*End Scotland*/
-
+        });
 
 /*Usa*/
-
-    var map1 = new google.maps.Map(document.getElementById("map1"), {
+         var map1 = new google.maps.Map(document.getElementById("map1"), {
         zoom: 5,
         mapTypeId: google.maps.MapTypeId.HYBRID,
         center: {
@@ -130,13 +118,29 @@ function initMap() {
 /*EndCanada*/
 
 
-/*Markers*/
+         directionsRenderer.setMap(map);
 
-      var markerCluster = new MarkerClusterer(map, markers, {
-        imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
-    });
+        var onChangeHandler = function() {
+          calculateAndDisplayRoute(directionsService, directionsRenderer);
+        };
+        document.getElementById('start').addEventListener('change', onChangeHandler);
+        document.getElementById('end').addEventListener('change', onChangeHandler);
+      }
 
-}
+      function calculateAndDisplayRoute(directionsService, directionsRenderer) {
+        directionsService.route(
+            {
+              origin: {query: document.getElementById('start').value},
+              destination: {query: document.getElementById('end').value},
+              travelMode: 'DRIVING'
+            },
+            function(response, status) {
+              if (status === 'OK') {
+                directionsRenderer.setDirections(response);
+              } else {
+                window.alert('Directions request failed due to ' + status);
+              }
+            });
+      }
 
 
-/*EndMarkers*/
