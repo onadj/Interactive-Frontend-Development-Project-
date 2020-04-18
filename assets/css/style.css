@@ -83,7 +83,10 @@ div#map6{
 div#map7{
     height: 700px;
 }
-
+div#mapVisitUs{
+    height:400px;
+    width:100%;
+}
 
 .recomendtrip{
     background: url('../images/recomendustripe.jpg') no-repeat center center fixed;
@@ -111,12 +114,13 @@ div#map7{
      display: flex;
      flex-direction: column;
      justify-content: center;
-     align-items: center;   
+     align-items: center; 
+     
 }
 
 .container-beforeyougo, form input, form button{
              padding: 0.5rem;
-             font-size:1rem;
+           
              border:none;
 }
 
@@ -125,7 +129,6 @@ div#map7{
 }
 
 .todo-container{
-  
 }
 
 .todo-list{
