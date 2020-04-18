@@ -1,5 +1,7 @@
 function initMap() {
 
+/*Scotland*/
+
      var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 7,
           mapTypeId: google.maps.MapTypeId.HYBRID,
@@ -8,6 +10,8 @@ function initMap() {
             lng: -4.227523
         }           
         });
+
+ /*EndScotland*/
 
  var map1 = new google.maps.Map(document.getElementById("map1"), {
         zoom: 5,
@@ -72,7 +76,7 @@ var map7= new google.maps.Map(document.getElementById("map7"), {
         }
     });
 
-///8 puta
+/*Labels*/
 var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var labels1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var labels2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -81,11 +85,14 @@ var labels4 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var labels5 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var labels6 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var labels7 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+/*EndLabels*/
 
 
 
     var locations = [
-        { lat:  57.478975, lng: -4.227523 }
+        { lat:  57.477591, lng: -4.228896,
+         title: 'iverness'},
+        
        
     ];
 
