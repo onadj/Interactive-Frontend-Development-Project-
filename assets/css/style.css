@@ -218,3 +218,9 @@ select{
     background: white;
     color:tomato;
 }
+
+.social-links li a {
+     color: #fafafa;
+     
+}
+
