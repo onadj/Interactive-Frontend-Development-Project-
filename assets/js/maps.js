@@ -1,15 +1,12 @@
 function initMap() {
 
-
-/*VisitUs*/
-    var mapVisitUs = new google.maps.Map(document.getElementById("mapVisitUs"), {
+  var mapVisitUs = new google.maps.Map(document.getElementById("mapVisitUs"), {
         zoom: 7,
         center: {
             lat: 52.652908, 
             lng: -6.649042
         }
     });
-/*EndVisitUs*/
 
 /*Scotland*/
      var map = new google.maps.Map(document.getElementById('map'), {
@@ -108,14 +105,13 @@ var labels4 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var labels5 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var labels6 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var labels7 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var labelsVisitUs = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
 /*EndLabels*/
 
-/*VisitUs*/
  var locationsVisitUs = [
         { lat: 52.652908, lng: -6.649042},
     ];
-/*EndVisitUs*/
+
 
 /*Scotland*/
         var locations = [
@@ -198,15 +194,7 @@ var labelsVisitUs = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     ];
 /*EndCanada*/
 
-/*VisitUsMarker*/
-  var markersVisitUs = locationsVisitUs.map(function(location, i) {
-        return new google.maps.Marker({
-            position: location,
-            title:"MotorHome Lovers Club",
-            label: labels[i % labels.length]
-        });
-    });
-/*EndVisitUsMarker*/
+ 
 
 /*ScotlandMarker*/
     var markers = locations.map(function(location, i) {
@@ -289,9 +277,15 @@ var labelsVisitUs = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     });
 
 /*EndCanadaMarker*/
+   var markersVisitUs = locationsVisitUs.map(function(location, i) {
+        return new google.maps.Marker({
+            position: location,
+            title:"MotorHome Lovers Club",
+            label: labels[i % labels.length]
+        });
+    });
+ 
 
-/*VisitUs*/
-var markerCluster = new MarkerClusterer(mapVisitUs, markersVisitUs, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
 /*Scotland*/
  var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
@@ -317,4 +311,6 @@ var markerCluster = new MarkerClusterer(map6, markers6, { imagePath: 'https://de
 /*Canada*/
 var markerCluster = new MarkerClusterer(map7, markers7, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
+var markerCluster = new MarkerClusterer(mapVisitUs, markersVisitUs, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+    
 }
