@@ -1,3 +1,5 @@
+/*VisitUs*/
+
 function initMap() {
     var mapVisitUs = new google.maps.Map(document.getElementById("mapVisitUs"), {
         zoom: 7,
@@ -23,3 +25,5 @@ function initMap() {
 
     var markerCluster = new MarkerClusterer(mapVisitUs, markersVisitUs, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 }
+
+/*EndVisitUs*/

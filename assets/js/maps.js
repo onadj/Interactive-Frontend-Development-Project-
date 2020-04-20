@@ -1,16 +1,6 @@
 function initMap() {
 
 
-/*VisitUs*/
-         var mapVisitUs = new google.maps.Map(document.getElementById("mapVisitUs"), {
-        zoom: 7,
-        center: {
-            lat: 52.652908, 
-            lng: -6.649042
-        }
-    });
-/*EndVisitUs*/
-
 /*Scotland*/
      var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 7,
@@ -111,11 +101,7 @@ var labels7 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var labelsVisitUs = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 /*EndLabels*/
 
-/*VisitUs*/
-  var locationsVisitUs = [
-        { lat: 52.652908, lng: -6.649042, title:'Motorhome Lovers Club'},
-    ];
-/*EndVisitUs*/
+
 
 /*Scotland*/
         var locations = [
@@ -198,16 +184,6 @@ var labelsVisitUs = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     ];
 /*EndCanada*/
 
-/*VisitUsMarker*/
-     var markersVisitUs = locationsVisitUs.map(function(location, i) {
-        return new google.maps.Marker({
-            position: location,
-            title: location.title,
-            label: labels[i % labels.length]
-        });
-    });
-/*EndVisitUsMarker*/
-
 /*ScotlandMarker*/
     var markers = locations.map(function(location, i) {
         return new google.maps.Marker({
@@ -289,9 +265,6 @@ var labelsVisitUs = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     });
 
 /*EndCanadaMarker*/
-
-/*VisitUs*/
-var markerCluster = new MarkerClusterer(mapVisitUs, markersVisitUs, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
 /*Scotland*/
  var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
