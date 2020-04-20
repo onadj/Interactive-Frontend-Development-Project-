@@ -35,13 +35,13 @@ function addTodo(event){
 
     /*Completed button*/
     const completedButton = document.createElement('button');
-    completedButton.innerHTML = '<i class="fas fa-check"></i>';
+    completedButton.innerHTML = '<i class="fas fa-check fa-1x"></i>';
     completedButton.classList.add("complete-btn");
     todoDiv.appendChild(completedButton);
 
      /*Delete button*/
     const deleteButton = document.createElement('button');
-    deleteButton.innerHTML = '<i class="fas fa-trash"></i>';
+    deleteButton.innerHTML = '<i class="fas fa-trash fa-1x"></i>';
     deleteButton.classList.add("trash-btn");
     todoDiv.appendChild(deleteButton);
 
