@@ -30,6 +30,7 @@ html,body,header,#intro{
 
 .three-things{
              background: url('../images/road1.jpg') no-repeat center center fixed;
+             font-size:0.8rem;
              margin:0px;
             -webkit-background-size: center;
             -o-background-size: center;
@@ -44,6 +45,9 @@ html,body,header,#intro{
   
 }
 
+.benefits{
+  font-size:0.8rem;
+}
 
 
 div#map{
