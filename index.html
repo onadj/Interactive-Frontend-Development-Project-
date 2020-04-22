@@ -164,7 +164,10 @@
 			
             
 <h6 class="font-weight-bold text-center">No lost luggage, no baggage fees, no baggage at all</h6>
-							<p>Everything you need will be right there with you on your camper. Tired of
+							<p class="disp-cont">Everything you need will be right there with you on your camper.</p>
+
+                            <p class="more-cont" style="display:none;">
+                             Tired of
 											limiting your liquids on
 											an airplane, or lugging heavy suitcases onto trains and buses? With a camper
 											you have the luxury of
@@ -174,30 +177,35 @@
 											attend to the children
 											without having to worry about all the baggage that normally accompanies
 											family vacations.</p>
-                                          <div class="col-12 text-center"> 
-                                          <button type="button" class="btn btn-secondary btn-sm">Read more</button>
-                                           </div>
+                                          
+                                          <button type="button" class=" readMore btn btn-secondary btn-sm">Read More</button>
+                                          <br>
+                                           
+				
                                            
            
                                             
 										
 
 <h6 class="font-weight-bold text-center">Comfort</h6>
-											<p>One of the biggest perks of having a motorhome is that you will be able to
+											<p class="disp-cont">One of the biggest perks of having a motorhome is that you will be able to
 											feel at home while on the
-											road. You will have everything you need, including bathroom facilities, a
+											road.</p>
+                                            <p class="more-cont" style="display:none;">
+                                             You will have everything you need, including bathroom facilities, a
 											place to sleep, a kitchen,
 											and some comfy chairs to relax in.</p>
-                                        <div class="col-12 text-center"> 
-                                          <button type="button" class="btn btn-secondary btn-sm">Read more</button>
-                                           </div>
+                                         
+                                          <button type="button" class=" readMore btn btn-secondary btn-sm">Read More</button>
+                                          <br>
 				
 
       	     
 <h6 class="font-weight-bold text-center">Freedom</h6>
-<p>
+<p class="disp-cont">
 											When you get in your RV you do not have to follow any plan besides getting
-											on the road. You have
+											on the road.</p>
+                                            <p class="more-cont" style="display:none;"> You have
 											total freedom to take your time to explore areas that interest you, and you
 											don’t have to wait for
 											public transport to bring you to your next destination. There are more than
@@ -208,14 +216,15 @@
 											Don’t be dependent on airlines or travel connections for your next trip.
 											When you’re behind the
 											wheel of an RV, you’re in charge.</p>
-                                      <div class="col-12 text-center"> 
-                                          <button type="button" class="btn btn-secondary btn-sm">Read more</button>
-                                           </div>
+                                       
+                                          <button type="button" class=" readMore btn btn-secondary btn-sm">Read More</button>
+                                          <br>
               
 <h6 class="font-weight-bold text-center">Versatility</h6>
                                            
-											<p>There are many different RVs to choose from, depending on your traveling
-											needs. If you only want to
+											<p class="disp-cont">There are many different RVs to choose from, depending on your traveling
+											needs.</p>
+                                            <p class="more-cont" style="display:none;"> If you only want to
 											travel for a weekend once in a while, a good option is to buy a towable
 											camper. But if you are
 											looking to spend months on the road, a motorized home is a good option. Just
@@ -226,32 +235,32 @@
 											important especially for
 											towables to ensure it stops when your car does, preventing accidents on the
 											road.</p>
-                                      <div class="col-12 text-center"> 
-                                          <button type="button" class="btn btn-secondary btn-sm">Read more</button>
-                                           </div>
+                                      <button type="button" class=" readMore btn btn-secondary btn-sm">Read More</button>
+                                          <br>
                                             
            
 
 <h6 class="font-weight-bold text-center">Bond with family</h6>
-											<p>Camping in a motorhome will not only allow you to bond with your family, but
+											<p class="disp-cont">Camping in a motorhome will not only allow you to bond with your family, but
 											it will allow you to
-											broaden your child’s horizons. Your family will be able to appreciate the
+											broaden your child’s horizons.</p> 
+                                            <p class="more-cont" style="display:none;"> Your family will be able to appreciate the
 											great outdoors while
 											gaining insights into different people and places all across the beautiful
 											United States of America.
 
 											So what do you have to lose? Go camping today and start exploring!</p>
-                                       <div class="col-12 text-center"> 
-                                          <button type="button" class="btn btn-secondary btn-sm">Read more</button>
-                                           </div>
+                                    <button type="button" class=" readMore btn btn-secondary btn-sm">Read More</button>
+                                          <br>
                                         
                                          
 
 			</div>
+            <hr>
 <!--EndFiveBenefits-->
 
 <!-- Footer -->
-<footer class="font-small text-light font-weight-light bg-dark my-2">
+<footer class="font-small text-light font-weight-light bg-dark">
 					<div class="container-fluid text-center">
 								<div class="row">
 								<div class="col-md-4 mt-3">
@@ -361,15 +370,20 @@
 
 									<script src="assets/js/visitus.js"></script>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
 
-$("#button-card-1").click(function(){
-  $("#par-1").toggle("slow");
+$('.readMore').click(function(e) {
+  e.preventDefault();
+  $(this).text(function(i, t) {
+    return t == 'Read Less' ? 'Read More' : 'Read Less';
+  }).prev('.more-cont').slideToggle()
 });
-
-
-
 </script>
+
+
+
                                    
 
 <!-- EndScripts -->
