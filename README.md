@@ -146,7 +146,10 @@ Once selected, the page auto refreshed, and the website was deployed.
 
 # Testing
 
-I ran the code through validation services (https://validator.w3.org/, http://jigsaw.w3.org/css-validator/ and https://jshint.com/). The following errors still appear:
+I ran the code through validation services
+ - https://validator.w3.org
+ - http://jigsaw.w3.org/css-validator
+ - https://jshint.com
 ---
 
 # Credits
