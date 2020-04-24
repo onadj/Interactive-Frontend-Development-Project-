@@ -2,8 +2,8 @@
 
 # MotorHome Lovers
 
----
-[![ ]('../images/headerfirst.jpg')
+
+('../images/headerfirst.jpg')
 ---
 
 ![MotorHome Lovers Live Web Site]https://onadj.github.io/Motorhome-Lovers/
