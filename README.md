@@ -34,11 +34,11 @@ I want to join Club of MotorHome Lovers and find where is.
 
 ---
 
-#Strategy
+# Strategy
 
 ---
 
-#Scope
+# Scope
 
 ---
 
@@ -57,9 +57,10 @@ Four page designs:
 ---
 
 # Skeleton
+
 Wireframe
 
---
+---
 
 # Surface
 
@@ -82,33 +83,33 @@ Responsive Design
 Choosing Starting and End point of travel with Road route
 Adding options to send images and videos from  RECOMEND TRIP page.
 Adding calendar with Club Of MotorHome Lovers meeting
-Adding parkways for Rv's
+Adding parkways for RV's.
 
 ---
 
 # Technologies used
 
-HTML
+- HTML
 
-CSS
+- CSS
 
-JavaScript
+- JavaScript
 
-Bootstrap 4.4.1 (getbootstrap.com)
+- Bootstrap 4.4.1 (getbootstrap.com)
 
-jQuery 3.4.1 (jQuery.com) to access DOM elements quicker, and react to user input
+- jQuery 3.4.1 (jQuery.com) to access DOM elements quicker, and react to user   input
 
-Google Fonts (fonts.google.com)
+- Google Fonts (fonts.google.com)
 
-GitPod (gitpod.io) IDE
+- GitPod (gitpod.io) IDE
 
-GitHub (github.com) for sharing
+- GitHub (github.com) for sharing
 
-Git (for version control)
+- Git (for version control)
 
-Google Maps API for creating maps, markers
+- Google Maps API for creating maps, markers
 
-JS Software Development Kit (SDK) for sending emails (EmailJS)
+- JS Software Development Kit (SDK) for sending emails (EmailJS)
 
 ---
 
@@ -143,12 +144,12 @@ Under ‘Source’ click the drop-down menu and select ‘Master Branch’.
 Once selected, the page auto refreshed, and the website was deployed.
 ---
 
-#Testing
+# Testing
 
 I ran the code through validation services (https://validator.w3.org/, http://jigsaw.w3.org/css-validator/ and https://jshint.com/). The following errors still appear:
 ---
 
-#Credits
+# Credits
 
 https://www.tripsavvy.com/ 
 https://rvlifestyle.com/ 
@@ -163,7 +164,7 @@ https://www.pexels.com/
 
 ---
 
-#Code
+# Code
 
 https://www.w3schools.com/ 
 
