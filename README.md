@@ -2,7 +2,7 @@
 
 # MotorHome Lovers
 
-![i](https://github.com/onadj/Motorhome-Lovers/blob/master/rmimages/readmd1.jpg)]
+![i](https://github.com/onadj/Motorhome-Lovers/blob/master/rmimages/readmd1.jpg)
 
 ---
 
