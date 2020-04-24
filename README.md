@@ -1,18 +1,19 @@
-# Code Institute Milestone Project 2 - Interactive Frontend Development
+# Code Institute Milestone Project 2 - Interactive Frontend Development:
+
+# MotorHome Lovers
 
 ---
+[![ ]('../images/headerfirst.jpg')
 ---
 
-Live Website: https://onadj.github.io/Motorhome-Lovers/
+![MotorHome Lovers Live Web Site]https://onadj.github.io/Motorhome-Lovers/
 
 GitHub Repo: https://github.com/onadj/Motorhome-Lovers
 
--
 ---
 
 My Milestone Project 2 is to used to display my skills learned in the following sections: HTML Fundamentals, CSS Fundamentals and  Javascript Fundamentals.
 
--
 ---
 
 # UX
@@ -35,7 +36,6 @@ I want to make my own checklist before travelling.
 
 I want to join Club of MotorHome Lovers and find where is.
 
---
 ---
 
 # Strategy
@@ -69,16 +69,16 @@ Wireframe
 # Surface
 
 Minimalistic design in shape of grey color.
-I gave a lot of attention to the pages according to the photos,videos and maps so that the user would have a great travel experience and to get his attention.
+I gave a lot of attention to the pages according to the photos, videos and maps so that the user would have a great travel experience and to get his attention.
 
 ---
 
-# Features
+#Features
 
 - Current Features:
 
 Visualizing a information of MotorHome concept idea
-Goals: Find page which has simplified information about RV's, find some facts about, find destination to travel, inform yourself of benefits, recommend trip, if choose to travel make own checklist
+Goals: Find page which has simplified information about RV's, find some facts about, find destination to travel, inform yourself of benefits, recommend trip, if choose to travel make own checklist.
 Responsive Design
 
 
@@ -111,7 +111,7 @@ Adding parkways for RV's.
 
 - Git (for version control)
 
-- Google Maps API for creating maps, markers
+- Google Maps API for creating maps and markers
 
 - JS Software Development Kit (SDK) for sending emails (EmailJS)
 
