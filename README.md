@@ -17,14 +17,24 @@ My Milestone Project 2 is to used to display my skills learned in the following 
 User stories:
 
 I want to find out web page about MotorHomes.
+
 I want to find some interest facts of MotorHomes.
+
 I want to see what is benefits of RV's and why I would choose RV's for my holiday,... etc?
+
 I want to find what are the most famous destinations to drive with RV's and point of interest.
+
 I want to see top destinations on google maps.
+
 I want to recommend a destination from my own experience via email.
+
 I want to make my own checklist before travelling.
+
 I want to join Club of MotorHome Lovers and find where is.
-Strategy
+
+---
+
+#Strategy
 Create a reading schedule for books, offering 2 tracks of information as an output:
 How long does it take to read the entire book by reading n pages every n day(s)
 How many pages do I need to read per n day(s) to be finished by a certain date
@@ -56,6 +66,7 @@ Four page designs:
 # Skeleton
 Wireframe
 
+--
 
 # Surface
 
@@ -142,10 +153,6 @@ Once selected, the page auto refreshed, and the website was deployed.
 # Testing
 
 I ran the code through validation services (https://validator.w3.org/, http://jigsaw.w3.org/css-validator/ and https://jshint.com/). The following errors still appear:
-
-HTML: Attribute onreadystatechange not allowed on element script at this point. I left it as it is because this is the recommended link from the Google API.
-CSS warning: ...is an unknown vendor extended pseudo-class. I left it in the code because it's the recommentded solution of w3schools to avoid displaying arrows in the number-inputfields. And: it works anyway.
-
 ---
 
 # Credits
