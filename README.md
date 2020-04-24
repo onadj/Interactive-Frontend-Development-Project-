@@ -1,15 +1,18 @@
 # Code Institute Milestone Project 2 - Interactive Frontend Development
 
 ---
+---
 
 Live Website: https://onadj.github.io/Motorhome-Lovers/
 
 GitHub Repo: https://github.com/onadj/Motorhome-Lovers
 
+-
 ---
 
 My Milestone Project 2 is to used to display my skills learned in the following sections: HTML Fundamentals, CSS Fundamentals and  Javascript Fundamentals.
 
+-
 ---
 
 # UX
@@ -32,6 +35,7 @@ I want to make my own checklist before travelling.
 
 I want to join Club of MotorHome Lovers and find where is.
 
+--
 ---
 
 # Strategy
@@ -128,6 +132,7 @@ git push -u origin master
 
 python3 -m http.server(while working on project)
 
+---
 
 To deploy my website to GitHub Pages, the following steps were taken:
 
@@ -142,6 +147,7 @@ Scroll down to GitHub Pages section.
 Under ‘Source’ click the drop-down menu and select ‘Master Branch’.
 
 Once selected, the page auto refreshed, and the website was deployed.
+
 ---
 
 # Testing
@@ -154,16 +160,17 @@ I ran the code through validation services
 
 # Credits
 
-https://www.tripsavvy.com/ 
-https://rvlifestyle.com/ 
+- https://www.tripsavvy.com/ 
 
-https://en.wikipedia.org/ 
+- https://rvlifestyle.com/ 
 
-https://www.shutterstock.com/home 
+- https://en.wikipedia.org/ 
 
-https://coverr.co/
+- https://www.shutterstock.com/home 
 
-https://www.pexels.com/ 
+- https://coverr.co/
+
+- https://www.pexels.com/ 
 
 ---
 
@@ -174,6 +181,7 @@ https://www.w3schools.com/
 https://watchandcode.com/  
 
 https://www.udemy.com/ 
+
 https://developedbyed.com/ 
 
 ---
