@@ -45,6 +45,20 @@ I want to join Club of MotorHome Lovers and find where is.
 
 ---
 
+# Structure
+
+Four page designs:
+
+ 1. HOME PAGE =  (Dream Vacation) with a hero image, three short fact's about RV's, 5 benefits of traveling with MotorHome and Footer with Information about Motorhome Lovers(who we are etc), location on google maps where is Club of MotorHome Lovers, and Contact
+
+ 2. TOP DESTINATION = At this page user can see 8 top destination in the world to drive RV's:  in Scotland, California, East Coast Australia, Namibia, Japan, New Zealand, Chile and Canada. Every destination has description and map with markers with point of interest.
+
+ 3. RECOMMEND TRIP = At this page user can recommend trip, there is form where user can put his own name, e-mail and text with recommended destination.
+
+ 4. BEFORE YOU GO = At this page user can make his own checklist before going on trip(such as check house before leaving, money, documents, its RV ok for drive, spare tyre, water... User can add, mark as completed and delete when some of things is done.
+
+---
+
 # Wireframe
 
 I used Balsamiq Mockup 3 to complete my wireframes. Wireframing my website was extremely beneficial as it allowed me to visualise my website prior to coding and made development a lot easier.
@@ -66,22 +80,7 @@ I used Balsamiq Mockup 3 to complete my wireframes. Wireframing my website was e
 
   ![i](https://github.com/onadj/Motorhome-Lovers/blob/master/wireframes/BeforeYouGo.png)
 
-
 - Mobile Phone
-
----
-
-# Structure
-
-Four page designs:
-
- 1. HOME PAGE =  (Dream Vacation) with a hero image, three short fact's about RV's, 5 benefits of traveling with MotorHome and Footer with Information about Motorhome Lovers(who we are etc), location on google maps where is Club of MotorHome Lovers, and Contact
-
- 2. TOP DESTINATION = At this page user can see 8 top destination in the world to drive RV's:  in Scotland, California, East Coast Australia, Namibia, Japan, New Zealand, Chile and Canada. Every destination has description and map with markers with point of interest.
-
- 3. RECOMMEND TRIP = At this page user can recommend trip, there is form where user can put his own name, e-mail and text with recommended destination.
-
- 4. BEFORE YOU GO = At this page user can make his own checklist before going on trip(such as check house before leaving, money, documents, its RV ok for drive, spare tyre, water... User can add, mark as completed and delete when some of things is done.
 
 ---
 
