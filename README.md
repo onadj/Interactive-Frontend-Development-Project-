@@ -45,11 +45,19 @@ I want to join Club of MotorHome Lovers and find where is.
 
 ---
 
-# Strategy
+# Wireframe
 
----
+I used Balsamiq Mockup 3 to complete my wireframes. Wireframing my website was extremely beneficial as it allowed me to visualise my website prior to coding and made development a lot easier.
 
-# Scope
+- Desktop
+
+  ![i](https://github.com/onadj/Motorhome-Lovers/blob/master/wireframes/HomePage.png)
+
+ ![i](https://github.com/onadj/Motorhome-Lovers/blob/master/wireframes/TopDestination.png)
+
+ ![i](https://github.com/onadj/Motorhome-Lovers/blob/master/wireframes/RecommendTrip.png)
+
+  ![i](https://github.com/onadj/Motorhome-Lovers/blob/master/wireframes/BeforeYouGo.png)
 
 ---
 
@@ -64,12 +72,6 @@ Four page designs:
  3. RECOMMEND TRIP = At this page user can recommend trip, there is form where user can put his own name, e-mail and text with recommended destination.
 
  4. BEFORE YOU GO = At this page user can make his own checklist before going on trip(such as check house before leaving, money, documents, its RV ok for drive, spare tyre, water... User can add, mark as completed and delete when some of things is done.
-
----
-
-# Skeleton
-
-Wireframe
 
 ---
 
