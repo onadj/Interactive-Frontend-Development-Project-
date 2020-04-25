@@ -54,7 +54,7 @@ Four page designs:
 
  2. TOP DESTINATION = At this page user can see 8 top destination in the world to drive RV's:  in Scotland, California, East Coast Australia, Namibia, Japan, New Zealand, Chile and Canada. Every destination has description and map with markers with point of interest.
 
- 3. RECOMEND TRIP = At this page user can recommend trip, there is form where user can put his own name, e-mail and text with recommended destination.
+ 3. RECOMMEND TRIP = At this page user can recommend trip, there is form where user can put his own name, e-mail and text with recommended destination.
 
  4. BEFORE YOU GO = At this page user can make his own checklist before going on trip(such as check house before leaving, money, documents, its RV ok for drive, spare tyre, water... User can add, mark as completed and delete when some of things is done.
 
@@ -73,7 +73,7 @@ I gave a lot of attention to the pages according to the photos, videos and maps 
 
 ---
 
-#Features
+# Features
 
 - Current Features:
 
@@ -101,7 +101,7 @@ Adding parkways for RV's.
 
 - Bootstrap 4.4.1 (getbootstrap.com)
 
-- jQuery 3.4.1 (jQuery.com) to access DOM elements quicker, and react to user   input
+- jQuery 3.3.1 (jQuery.com) to access DOM elements quicker, and react to user   input
 
 - Google Fonts (fonts.google.com)
 
