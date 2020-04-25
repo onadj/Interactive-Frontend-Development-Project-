@@ -2,6 +2,13 @@
 
 # MotorHome Lovers
 
+
+This page is for adventure and exploring loving people, people who want to explore world, who want spend holiday, vacation, spending time with family, frends.. in the free style way, where everything you need is in your MotorHome.
+On this page you can find interesting facts about MotorHome, Top Destinations, also you can find Club of MotorHome Lovers.
+You can recommend your favorite destination by email and make a personal checklist before you go on trip.
+Open page, explore it and say goodbye, planes, trains, ships etc and just turn on your MotorHome and Drive in Adventure Of Your Life.
+
+
 ![i](https://github.com/onadj/Motorhome-Lovers/blob/master/rmimages/readmd1.jpg)
 
 ---
