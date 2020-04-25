@@ -176,13 +176,7 @@ I ran the code through validation services
  - https://jshint.com
 ---
 
-# Credits
-
-- https://www.tripsavvy.com/ 
-
-- https://rvlifestyle.com/ 
-
-- https://en.wikipedia.org/ 
+# Media
 
 - https://www.shutterstock.com/home 
 
@@ -190,17 +184,35 @@ I ran the code through validation services
 
 - https://www.pexels.com/ 
 
+- https://unsplash.com/
+
+---
+
+# Informations/Credit
+
+- https://www.tripsavvy.com/ 
+
+- https://www.lonelyplanet.com/articles/the-best-destinations-for-campervan-travel
+
+- https://rvlifestyle.com/ 
+
+- https://en.wikipedia.org/ 
+
 ---
 
 # Code
 
-https://www.w3schools.com/ 
+- https://www.w3schools.com/ 
 
-https://watchandcode.com/  
+- https://watchandcode.com/  
 
-https://www.udemy.com/ 
+- https://www.udemy.com/ 
 
-https://developedbyed.com/ 
+- https://developedbyed.com/ 
+
+- http://jsfiddle.net/
+
+- https://www.codewars.com/
 
 ---
 
