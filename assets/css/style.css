@@ -13,7 +13,6 @@ html,body,header,#intro{
  
 }
 
-
 .header{
      background: url('../images/headerfirst.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -24,8 +23,25 @@ html,body,header,#intro{
      margin:0px;
      display: flex;
      flex-direction: column;
-     justify-content: center;
-     align-items: center;   
+    
+}
+
+.header h2{
+        margin-top: 100px;
+}
+
+.topdestination h5{
+    color: rgb(111, 180, 111);
+}
+
+.topdestination1{
+     background: url('../images/scotlandfromair.jpg')no-repeat center center fixed;
+     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     background-size: cover;
+     -o-background-size: cover;
+     height: 50vh;  
 }
 
 .three-things{
@@ -41,13 +57,22 @@ html,body,header,#intro{
              position:relative; 
             flex-direction: column;
             background-position:  center; 
-            color: white;
-  
+            color: white; 
 }
+
+.three-things i{
+ background-color: white;
+ color:rgb(95, 94, 94);
+ border-radius: 60%;
+ border: 1x solid grey;
+ padding:10px;
+}
+
 
 .benefits{
   font-size:0.8rem;
 }
+
 
 
 div#map{
@@ -232,9 +257,6 @@ select{
 }
 
 
-.btn-secondary{
-     background-color: transparent;
-}
 
 
 
