@@ -76,9 +76,10 @@ html,body,header,#intro{
 
 
 div#map{
-    
-    height: 515px;
- 
+    height: 100%;
+}
+@media (max-width: 767px) {
+                          div#map{height:400px;                                 }
 }
 
 div#map1{
