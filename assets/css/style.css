@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
+
 body {
       font-family: 'Montserrat', sans-serif;          
 };
-
-
 
 
 
@@ -12,6 +12,8 @@ html,body,header,#intro{
     height:100%;
  
 }
+
+
 
 .header{
      background: url('../images/headerfirst.jpg') no-repeat center center fixed;
@@ -26,13 +28,19 @@ html,body,header,#intro{
     
 }
 
+
+
 .header h2{
         margin-top: 100px;
 }
 
+
+
 .topdestination h5{
     color: rgb(111, 180, 111);
 }
+
+
 
 .topdestination1{
      background: url('../images/scotlandfromair.jpg')no-repeat center center fixed;
@@ -43,6 +51,8 @@ html,body,header,#intro{
      -o-background-size: cover;
      height: 50vh;  
 }
+
+
 
 .three-things{
              background: url('../images/road1.jpg') no-repeat center center fixed;
@@ -60,6 +70,8 @@ html,body,header,#intro{
             color: white; 
 }
 
+
+
 .three-things i{
  background-color: white;
  color:rgb(95, 94, 94);
@@ -69,55 +81,106 @@ html,body,header,#intro{
 }
 
 
+
 .benefits{
   font-size:0.8rem;
 }
 
 
 
+/*ScotlandMap*/
 div#map{
     height: 100%;
 }
 @media (max-width: 767px) {
                           div#map{height:400px;                                 }
 }
+/*EndScotlandMap*/
 
+
+
+/*UsaMap*/
 div#map1{
     height: 100%;
- 
 }
+@media (max-width: 767px) {
+                          div#map1{height:400px;                                 }
+}
+/*EndUsaMap*/
 
 
+
+/*AustraliaMap*/
 div#map2{
     height: 100%;
- 
 }
+@media (max-width: 767px) {
+                          div#map2{height:400px;                                 }
+}
+/*EndAustraliaMap*/
 
+
+
+/*NamibiaMap*/
 div#map3{
     height: 100%;
- 
 }
+@media (max-width: 767px) {
+                          div#map3{height:400px;                                 }
+}
+/*EndNamibiaMap*/
 
+
+
+/*JapanMap*/
 div#map4{
    height: 100%;
 }
+@media (max-width: 767px) {
+                          div#map4{height:400px;                                 }
+}
+/*EndJapanMap*/
 
 
+/*NewZealandMap*/
 div#map5{
    height: 100%;
 }
+@media (max-width: 767px) {
+                          div#map5{height:400px;                                 }
+}
+/*EndNewZealandMap*/
 
+
+/*ChileMap*/
 div#map6{
     height: 100%;
 }
+@media (max-width: 767px) {
+                          div#map6{height:400px;                                 }
+}
+/*EndChileMap*/
 
+
+/*CanadaMap*/
 div#map7{
    height: 100%;
 }
+@media (max-width: 767px) {
+                          div#map7{height:400px;                                 }
+}
+/*EndCanadaMap*/
+
+
+
+/*VisitUsMap*/
 div#mapVisitUs{
     height:400px;
     width:100%;
 }
+/*EndVisitUsMap*/
+
+
 
 .recommendtrip{
     background: url('../images/recomendustripe.jpg') no-repeat center center fixed;
@@ -134,7 +197,6 @@ div#mapVisitUs{
 
 
 
-
 .container-beforeyougo{
     background: url('../images/road.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -145,19 +207,24 @@ div#mapVisitUs{
      display: flex;
      flex-direction: column;
      justify-content: center;
-     align-items: center; 
-     
+     align-items: center;    
 }
+
+
+
 
 .container-beforeyougo, form input, form button{
              padding: 0.5rem;
-           
              border:none;
 }
+
+
 
 .container-beforeyougo, form button{
              cursor: pointer;
 }
+
+
 
 .todo-container{
      display: flex;
@@ -165,10 +232,14 @@ div#mapVisitUs{
     align-items:center;
 }
 
+
+
 .todo-list{
     min-width: 20%;
     list-style: none;
 }
+
+
 
 .todo{
     margin: 0.5rem;
@@ -181,9 +252,13 @@ div#mapVisitUs{
     transition: all 0.5s ease;
 }
 
+
+
 .todo li{
     flex:1;  
 }
+
+
 
 .trash-btn, .complete-btn {
     background:tomato;
@@ -194,27 +269,39 @@ div#mapVisitUs{
     font-size:0.5rem; 
 }
 
+
+
 .complete-btn{
     background: rgb(122, 223, 122);
 }
+
+
 
 .todo-item{
     padding: 0rem 0.5rem;
 }
 
+
+
 .fa-trash, .fa-check{
     pointer-events: none;
 }
+
+
 
 .completed{
     text-decoration: line-through;
     opacity: 0.5;
 }
 
+
+
 .fall{
     transform: translateY(9rem) rotateZ(25deg);
     opacity: 0;
 }
+
+
 
 select{
     -webkit-appearance: none;
@@ -225,11 +312,15 @@ select{
 
 }
 
+
+
 .select{
     margin: 1rem;
     position: relative;
     overflow: hidden;
 }
+
+
 
 select{
     color: tomato;
@@ -237,6 +328,8 @@ select{
     cursor: pointer;
     padding: 1rem;
 }
+
+
 
 .select::after{
     content:"\25BC";
@@ -248,10 +341,15 @@ select{
     pointer-events: none;
     transition: all 0.5s
 }
+
+
+
 .select:hover::after{
     background: white;
     color:tomato;
 }
+
+
 
 .social-links li a {
      color: #fafafa;
