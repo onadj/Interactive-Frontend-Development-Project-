@@ -76,41 +76,42 @@ html,body,header,#intro{
 
 
 div#map{
-    height: 700px;
+    
+    height: 100%;
  
 }
 
 div#map1{
-    height: 700px;
+    height: 100%;
  
 }
 
 
 div#map2{
-    height: 700px;
+    height: 100%;
  
 }
 
 div#map3{
-    height: 700px;
+    height: 100%;
  
 }
 
 div#map4{
-    height: 700px;
+   height: 100%;
 }
 
 
 div#map5{
-    height: 700px;
+   height: 100%;
 }
 
 div#map6{
-    height: 700px;
+    height: 100%;
 }
 
 div#map7{
-    height: 700px;
+   height: 100%;
 }
 div#mapVisitUs{
     height:400px;
