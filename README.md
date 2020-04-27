@@ -194,6 +194,13 @@ I ran the code through validation services, error spotted and fixed;
 
  - https://jshint.com
 
+ - I was testing the site with Chrome developer tools on my desktop PC, and with Samsung Galaxy A50, Samsung Galaxy Tab A6, iPhone 7 and with multiple browsers (Safari, Chrome, Firefox, Internet Explorer) to make sure compatibility and responsiveness are working. Site was tested on all major browser in different platforms and operating systems and another mobile devices of different sizes and brands, and proved to react responsively.
+
+---
+
+# Repl.it, Sublime Text 3 and VS Code
+
+-The project was also done on Repl.it, Sublime Text 3 and VS Code editors to prevent data lost. VS Code is my most used editor.
 ---
 
 # Media
