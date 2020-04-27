@@ -195,6 +195,24 @@ div#mapVisitUs{
      align-items: center;   
 }
 
+.checklistheader h4{
+    color: rgb(111, 180, 111);
+}
+
+#beforeYouGoVideo {
+ height: 100%;
+}
+
+
+
+.checklistheader i{
+ background-color:  rgb(111, 180, 111);
+ color:rgb(95, 94, 94);
+ border-radius: 60%;
+ border: 1x solid grey;
+ padding:10px;
+}
+
 
 
 .container-beforeyougo{
@@ -212,7 +230,6 @@ div#mapVisitUs{
 
 
 
-
 .container-beforeyougo, form input, form button{
              padding: 0.5rem;
              border:none;
@@ -223,6 +240,10 @@ div#mapVisitUs{
 .container-beforeyougo, form button{
              cursor: pointer;
 }
+
+ .rsg{
+     color:rgb(95, 94, 94);
+ }
 
 
 
