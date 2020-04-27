@@ -14,7 +14,7 @@ html,body,header,#intro{
 }
 
 
-
+/*HeaderHomePage*/
 .header{
      background: url('../images/headerfirst.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -28,19 +28,16 @@ html,body,header,#intro{
     
 }
 
-
-
 .header h2{
         margin-top: 100px;
 }
+/*EndHeaderHomePage*/
 
 
-
+/*TopDestination*/
 .topdestination h5{
     color: rgb(111, 180, 111);
 }
-
-
 
 .topdestination1{
      background: url('../images/scotlandfromair.jpg')no-repeat center center fixed;
@@ -51,9 +48,10 @@ html,body,header,#intro{
      -o-background-size: cover;
      height: 50vh;  
 }
+/*EndTopDestination*/
 
 
-
+/*ThreeThings*/
 .three-things{
              background: url('../images/road1.jpg') no-repeat center center fixed;
              font-size:0.8rem;
@@ -70,8 +68,6 @@ html,body,header,#intro{
             color: white; 
 }
 
-
-
 .three-things i{
  background-color: white;
  color:rgb(95, 94, 94);
@@ -79,13 +75,14 @@ html,body,header,#intro{
  border: 1x solid grey;
  padding:10px;
 }
+/*EndThreeThings*/
 
 
-
+/*Benefits*/
 .benefits{
   font-size:0.8rem;
 }
-
+/*EndBenefits*/
 
 
 /*ScotlandMap*/
@@ -98,7 +95,6 @@ div#map{
 /*EndScotlandMap*/
 
 
-
 /*UsaMap*/
 div#map1{
     height: 100%;
@@ -107,7 +103,6 @@ div#map1{
                           div#map1{height:400px;                                 }
 }
 /*EndUsaMap*/
-
 
 
 /*AustraliaMap*/
@@ -120,7 +115,6 @@ div#map2{
 /*EndAustraliaMap*/
 
 
-
 /*NamibiaMap*/
 div#map3{
     height: 100%;
@@ -129,7 +123,6 @@ div#map3{
                           div#map3{height:400px;                                 }
 }
 /*EndNamibiaMap*/
-
 
 
 /*JapanMap*/
@@ -172,16 +165,14 @@ div#map7{
 /*EndCanadaMap*/
 
 
-
 /*VisitUsMap*/
 div#mapVisitUs{
     height:400px;
 }
-
 /*EndVisitUsMap*/
 
 
-
+/*RecommendTrip*/
 .recommendtrip{
     background: url('../images/recomendustripe.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -194,7 +185,9 @@ div#mapVisitUs{
      justify-content: center;
      align-items: center;   
 }
+/*EndRecommendTrip*/
 
+/*BeforeYouGo*/
 .checklistheader h4{
     color: rgb(111, 180, 111);
 }
@@ -203,8 +196,6 @@ div#mapVisitUs{
  height: 100%;
 }
 
-
-
 .checklistheader i{
  background-color:  rgb(111, 180, 111);
  color:rgb(95, 94, 94);
@@ -212,8 +203,6 @@ div#mapVisitUs{
  border: 1x solid grey;
  padding:10px;
 }
-
-
 
 .container-beforeyougo{
     background: url('../images/road.jpg') no-repeat center center fixed;
@@ -228,41 +217,27 @@ div#mapVisitUs{
      align-items: center;    
 }
 
-
-
 .container-beforeyougo, form input, form button{
              padding: 0.5rem;
              border:none;
 }
 
-
-
 .container-beforeyougo, form button{
              cursor: pointer;
 }
 
- .rsg{
-     color:rgb(95, 94, 94);
- }
-
-
-
-.todo-container{
+.checklist-container{
      display: flex;
     justify-content: center;
     align-items:center;
 }
 
-
-
-.todo-list{
+.checklist-list{
     min-width: 20%;
     list-style: none;
 }
 
-
-
-.todo{
+.checklist{
     margin: 0.5rem;
     background: white;
     color:black;
@@ -273,13 +248,9 @@ div#mapVisitUs{
     transition: all 0.5s ease;
 }
 
-
-
-.todo li{
+.checklist li{
     flex:1;  
 }
-
-
 
 .trash-btn, .complete-btn {
     background:tomato;
@@ -290,39 +261,27 @@ div#mapVisitUs{
     font-size:0.5rem; 
 }
 
-
-
 .complete-btn{
     background: rgb(122, 223, 122);
 }
 
-
-
-.todo-item{
+.checklist-item{
     padding: 0rem 0.5rem;
 }
-
-
 
 .fa-trash, .fa-check{
     pointer-events: none;
 }
-
-
 
 .completed{
     text-decoration: line-through;
     opacity: 0.5;
 }
 
-
-
 .fall{
     transform: translateY(9rem) rotateZ(25deg);
     opacity: 0;
 }
-
-
 
 select{
     -webkit-appearance: none;
@@ -333,29 +292,23 @@ select{
 
 }
 
-
-
 .select{
     margin: 1rem;
     position: relative;
     overflow: hidden;
 }
 
-
-
-select{
-    color: tomato;
+.select{
+    color: rgb(243, 79, 79);
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
 }
 
-
-
 .select::after{
     content:"\25BC";
     position:absolute;
-    background: tomato;
+    background: rgb(243, 79, 79);
     top:0;
     right: 0;
     padding: 1rem;
@@ -363,20 +316,19 @@ select{
     transition: all 0.5s
 }
 
-
-
 .select:hover::after{
     background: white;
-    color:tomato;
+    color:rgb(243, 79, 79);
 }
+/*EndBeforeYouGo*/
 
 
-
+/*SocialLinks*/
 .social-links li a {
      color: #fafafa;
      
 }
-
+/*EndSocialLinks*/
 
 
 
