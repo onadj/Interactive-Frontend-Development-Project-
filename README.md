@@ -65,7 +65,7 @@ I used Balsamiq Mockup 3 to complete my wireframes. Wireframing my website was e
 
 - Desktop
 
- 1. Dream vacation Page
+ 1. Dream Vacation Page
 
   ![i](https://github.com/onadj/Motorhome-Lovers/blob/master/wireframes/Homepage.png)
 
@@ -188,13 +188,16 @@ Once selected, the page auto refreshed, and the website was deployed.
 
 I ran the code through validation services
  - https://validator.w3.org
+
  - http://jigsaw.w3.org/css-validator
+ 
  - https://jshint.com
+
 ---
 
 # Media
 
-- https://www.shutterstock.com/home 
+- https://www.shutterstock.com/
 
 - https://coverr.co/
 
@@ -217,6 +220,8 @@ I ran the code through validation services
 ---
 
 # Code
+
+- https://codepen.io/
 
 - https://www.w3schools.com/ 
 
