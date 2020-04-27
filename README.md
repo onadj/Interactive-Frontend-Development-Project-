@@ -119,7 +119,7 @@ Responsive Design
 - Features Left to Implement:
 
 Choosing Starting and End point of travel with Road route
-Adding options to send images and videos from  RECOMEND TRIP page.
+Adding options to send images and videos from  Recomend Trip page.
 Adding calendar with Club Of MotorHome Lovers meeting
 Adding parkways for RV's.
 
@@ -228,6 +228,8 @@ I ran the code through validation services, error spotted and fixed;
 ---
 
 # Code
+
+- https://stackoverflow.com/
 
 - https://codepen.io/
 
