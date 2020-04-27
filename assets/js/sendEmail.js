@@ -1,3 +1,4 @@
+/*sendMail*/
 function sendMail(contactForm) {
     emailjs.send("gmail", "template_GPCu9IP9", {
         "from_name": contactForm.name.value,
@@ -15,3 +16,4 @@ function sendMail(contactForm) {
     );
     return false;  
 }
+/*EndsendMail*/

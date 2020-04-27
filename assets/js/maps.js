@@ -311,6 +311,7 @@ var markerCluster = new MarkerClusterer(map6, markers6, { imagePath: 'https://de
 /*Canada*/
 var markerCluster = new MarkerClusterer(map7, markers7, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
+/*VisitUs*/
 var markerCluster = new MarkerClusterer(mapVisitUs, markersVisitUs, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
     
 }

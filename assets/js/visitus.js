@@ -1,5 +1,4 @@
 /*VisitUs*/
-
 function initMap() {
     var mapVisitUs = new google.maps.Map(document.getElementById("mapVisitUs"), {
         zoom: 7,
