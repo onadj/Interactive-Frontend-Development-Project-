@@ -78,7 +78,7 @@ I used Balsamiq Mockup 3 to complete my wireframes. Wireframing my website was e
 
 5. Before You Go Page
 
-  ![i](https://github.com/onadj/Motorhome-Lovers/blob/master/wireframes/BeforeYouGo.png)
+  ![i](https://github.com/onadj/Motorhome-Lovers/blob/master/wireframes/BeforeYouGo1.png)
 
 - Mobile Phone
 
